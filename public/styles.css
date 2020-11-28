@@ -792,9 +792,8 @@ div.loginPrompt {
   grid-row: 1 / 1;
   grid-column: 1 / span 2;
   margin-bottom: -7.5%;
-  margin-top: -8em;
+  margin-top: 0em;
   margin-right: 2em;
-  width: 40%;
 }
 ​
 #service2 {

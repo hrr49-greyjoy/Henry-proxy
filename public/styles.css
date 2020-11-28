@@ -95,10 +95,7 @@ div .recommend {
   position: relative;
 
 }
-/* .recommendText {
-  margin-top: 20px;
 
-} */
 
 .thumbsup{
   font-family: 'Poppins';
@@ -107,18 +104,14 @@ div .recommend {
   margin: 2px;
   vertical-align: center;
   display: flex;
-  /* position: absolute; */
-  /* margin-top: 10px; */
 }
 .recommendText {
-  /* position: absolute; */
   left: 50px;
   margin-right: 10px;
 }
 .header {
   display: flex;
   flex-direction: column;
-  /* width: 45%; */
   border-bottom: 1px solid #E0E0E0;
 }
 .circles {
@@ -245,8 +238,6 @@ div.topButtons {
 
 .topListing {
   display: flex;
-
-
 }
 
 .profileCircle {
@@ -262,8 +253,6 @@ div.topButtons {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  /* background-color: #bbb; */
-
   display: inline-block;
   margin-right: 5%;
 

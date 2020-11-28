@@ -9,6 +9,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/calibre-test-regular.woff') format('woff');
+
 }
 @font-face {
   font-family: 'Calibre Bold';
@@ -22,7 +23,10 @@
   font-weight: 400;
   src: url('/fonts/calibre-test-semi-bold.woff') format('woff');
 }
-
+​
+​
+​
+​
 body {
   font-family: 'Calibre Light';
   width: 45%;
@@ -90,10 +94,7 @@ div .recommend {
   vertical-align: middle;
   position: relative;
 }
-/* .recommendText {
-  margin-top: 20px;
-​
-} */
+
 ​
 .thumbsup{
   font-family: 'Poppins';
@@ -133,9 +134,11 @@ div .recommend {
 ​
 .circle-2 {
   right: 20px;
+
 }
 .circle-3 {
   right: -10px;
+
 }
 .circle-4 {
   right: -40px;
@@ -197,6 +200,7 @@ div.topButtons {
 ​
 .upload:hover {
   box-shadow: 0 0 2px #808080
+​
 }
 .save {
   margin-right: 10px;
@@ -213,6 +217,7 @@ div.topButtons {
   font-family: 'Calibre regular';
   transition-duration: 0.6s;
   cursor: pointer;
+
 }
 .save:hover {
   box-shadow: 0 0 2px #808080
@@ -236,6 +241,7 @@ div.topButtons {
 ​
 .topListing {
   display: flex;
+
 }
 ​
 .profileCircle {
@@ -245,20 +251,22 @@ div.topButtons {
   border: 1px solid black;
   content: inline-block;
 }
+
 .profilePhoto {
   padding-right: 1px;
   padding-top: 1px;
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  /* background-color: #bbb; */
   display: inline-block;
   margin-right: 5%;
+
 }
 .listedBy {
   margin-top: 2%;
   display: flex;
   position: relative;
+
 }
 ​
 .hostedBy {
@@ -279,6 +287,7 @@ div.topButtons {
   border-radius: 25px;
   height: 23px;
   width: 22px;
+
 }
 .by {
   display: flex;
@@ -344,6 +353,7 @@ div .covid {
 .description-2 {
   margin-left: 35%;
   margin-bottom: 20px;
+
 }
 ​
 .read {
@@ -448,6 +458,7 @@ div.card {
   opacity: 0;
   transform: translateY(-100px);
   transition: all 500ms ease-in-out;
+
 }
 ​
 .ReactModal__Overlay--after-open {
@@ -463,6 +474,7 @@ div.card {
 ​
 .ReactModal__Body--open {
   overflow: hidden;
+
 }
 ​
 ​
@@ -497,6 +509,7 @@ button .modal {
   background: none;
   border: none;
   outline: none;
+
 }
 .modalHead {
   font-family: 'Calibre Regular';
@@ -514,6 +527,7 @@ button .modal {
   position: absolute;
   bottom: 5px;
   cursor: pointer;
+
 }
 ​
 .sendAMessage {
@@ -545,6 +559,7 @@ button .modal {
 .detailHead {
   font-family: 'Calibre Regular';
   font-size: 16px;
+
 }
 .column {
   font-family: 'Calibre Light';
@@ -630,11 +645,14 @@ div.loginPrompt {
   /* transition: all .4s ease; */
   position: relative;
   cursor: pointer;
+
 }
+
 .apple:hover {
   top: -3px;
   box-shadow: 0 3px 2px -1px gray;
   transition: bottom ease-in .3s;
+
 }
 ​
 .appleText {
@@ -724,6 +742,7 @@ div.loginPrompt {
   color: #808080;
   align-items: center;
   position: relative;
+
 }
 ​
 ​
@@ -748,6 +767,7 @@ div.loginPrompt {
   font-family: 'Calibre Regular';
   font-size: 16px;
   color: black;
+
 }
 ::placeholder {
   color: black;

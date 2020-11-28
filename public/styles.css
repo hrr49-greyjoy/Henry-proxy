@@ -33,12 +33,12 @@ body {
   color:#333333;
   /* max-width: 500px; */
 }
-
+​
 .topLocation {
   display: flex;
 }
-
-
+​
+​
 .locationMap {
   vertical-align: middle;
   position: relative;
@@ -47,16 +47,16 @@ body {
   transition-duration: 0.6s;
   cursor: pointer;
 }
-
-
+​
+​
 .locationMap:hover {
   text-decoration-color: #808080
 }
 .arrow {
   color: #E0E0E0;
 }
-
-
+​
+​
 .location {
   font-size: 15px;
   font-family: 'Calibre Regular';
@@ -76,12 +76,12 @@ body {
   font-family: 'Calibre Regular';
   margin: 0px;
 }
-
+​
 .nearbyDiv {
   font-size: 16px;
   font-family: 'Calibre Light'
 }
-
+​
 div .recommend {
   display: flex;
   flex-wrap: nowrap;
@@ -95,8 +95,11 @@ div .recommend {
   position: relative;
 
 }
-
-
+/* .recommendText {
+  margin-top: 20px;
+​
+} */
+​
 .thumbsup{
   font-family: 'Poppins';
   font-size: 14px;
@@ -104,14 +107,18 @@ div .recommend {
   margin: 2px;
   vertical-align: center;
   display: flex;
+  /* position: absolute; */
+  /* margin-top: 10px; */
 }
 .recommendText {
+  /* position: absolute; */
   left: 50px;
   margin-right: 10px;
 }
 .header {
   display: flex;
   flex-direction: column;
+  /* width: 45%; */
   border-bottom: 1px solid #E0E0E0;
 }
 .circles {
@@ -128,7 +135,7 @@ div .recommend {
 .circle-1 {
   right: 50px;
 }
-
+​
 .circle-2 {
   right: 20px;
 
@@ -153,20 +160,20 @@ div .recommend {
   box-shadow: 0 0 2px #D3D3D3;
   background-color: white;
 }
-
+​
 div .bar {
   align-items: inline;
   justify-content: space-between;
   background-color: none;
   position: relative;
 }
-
+​
 .bar {
   display: flex;
   margin-bottom: 5%;
 }
-
-
+​
+​
 div.topButtons {
   display: flex;
   width: 40%;
@@ -175,8 +182,8 @@ div.topButtons {
   margin-right: 6px;
   margin-top: 2px;
 }
-
-
+​
+​
 .upload {
   padding: 8px 17px;
   margin-right: 10px;
@@ -194,10 +201,10 @@ div.topButtons {
   transition-duration: 0.6s;
   cursor: pointer;
 }
-
+​
 .upload:hover {
   box-shadow: 0 0 2px #808080
-
+​
 }
 .save {
   margin-right: 10px;
@@ -218,7 +225,7 @@ div.topButtons {
 }
 .save:hover {
   box-shadow: 0 0 2px #808080
-
+​
 }
 .up {
   padding: 0px;
@@ -233,13 +240,15 @@ div.topButtons {
 }
 .up:hover {
   box-shadow: 0 0 2px #808080
-
+​
 }
-
+​
 .topListing {
   display: flex;
-}
 
+
+}
+​
 .profileCircle {
   height: 80px;
   width: 80px;
@@ -255,7 +264,6 @@ div.topButtons {
   border-radius: 50%;
   display: inline-block;
   margin-right: 5%;
-
 }
 .listedBy {
   margin-top: 2%;
@@ -263,7 +271,7 @@ div.topButtons {
   position: relative;
 
 }
-
+​
 .hostedBy {
   width: 20%;
   font-family: 'Calibre Regular';
@@ -271,7 +279,7 @@ div.topButtons {
   position: relative;
   cursor: pointer;
 }
-
+​
 .hostedBy:hover {
   text-decoration-color: #808080
 }
@@ -289,7 +297,6 @@ div.topButtons {
   width: 120px;
   text-decoration: none;
 
-
 }
 .host {
   font-family: 'Calibre Light';
@@ -302,7 +309,7 @@ div.topButtons {
 .host:hover {
   text-decoration-color: #808080
 }
-
+​
 .listing {
   display: flex;
   flex-direction: column;
@@ -311,9 +318,9 @@ div.topButtons {
   font-family: 'Calibre Light';
   font-size: 18px;
 }
-
-
-
+​
+​
+​
 .covid {
   color: #972985;
   font-size: 14px;
@@ -328,33 +335,31 @@ div.topButtons {
 div .covid {
   padding: 2px 5px;
 
-
 }
 .here {
   color: #972985;
 }
-
-
+​
+​
 .description {
   font-family: 'Calibre Light';
   justify-content: right;
   /* width: 80%; */
   margin-left: 35%;
 }
-
+​
 .description-1 {
   margin-left: 35%;
-  height: 85px;
+  height: 130px;
   overflow: hidden;
   margin-bottom: 0px;
 }
-
+​
 .description-2 {
   margin-left: 35%;
   margin-bottom: 20px;
-
 }
-
+​
 .read {
   font-family: 'Calibre Regular';
   margin-left: 85%;
@@ -367,8 +372,8 @@ div .covid {
 .read:hover {
   text-decoration-color: #808080
 }
-
-
+​
+​
 .cardInfo {
   display: flex;
   justify-content: space-between;
@@ -378,24 +383,24 @@ div .covid {
   justify-content: space-between;
   color: red;
 }
-
+​
 .iconText {
   display: flex;
   margin-bottom: 10px;
 }
-
+​
 .icon {
   margin-right: 8px;
 }
-
-
-
+​
+​
+​
 h1.cardHead {
   font-family: 'Calibre Regular';
   font-size: 20px;
   color: #333333
 }
-
+​
 .detailBox {
   box-shadow: 0 0 2px #D3D3D3;
   width: 80%;
@@ -404,9 +409,9 @@ h1.cardHead {
   font-family: 'Calibre Regular';
   font-size: 18px;
 }
-
-
-
+​
+​
+​
 div.cards {
   /* width: 45%; */
   display: flex;
@@ -414,9 +419,9 @@ div.cards {
   width: 80%;
   color: #333333;
 }
-
-
-
+​
+​
+​
 div.card {
   /* border: .5px solid #E0E0E0; */
   padding: 3%;
@@ -429,10 +434,10 @@ div.card {
   width: 35%;
   height: 350px;
 }
-
-
-
-
+​
+​
+​
+​
 .x {
   outline: none;
   padding: 0;
@@ -440,11 +445,11 @@ div.card {
   background: none;
   cursor: pointer
 }
-
-
-
-
-
+​
+​
+​
+​
+​
 .modals {
   display: flex;
   /* width: 45%; */
@@ -457,27 +462,25 @@ div.card {
   opacity: 0;
   transform: translateY(-100px);
   transition: all 500ms ease-in-out;
-
 }
-
+​
 .ReactModal__Overlay--after-open {
   opacity: 1;
   transform: translateY(0px);
 }
-
+​
 .ReactModal__Overlay--before-close {
   opacity: 0;
   transform: translateY(-100px);
   transition: all 500ms ease-out;
 }
-
+​
 .ReactModal__Body--open {
   overflow: hidden;
-
 }
-
-
-
+​
+​
+​
 .modal {
   position: fixed;
   top: 2%;
@@ -494,26 +497,27 @@ div.card {
   max-height: 100vh;
   overflow-y: auto;
 }
-
-
-
+.modalBackground {
+  background-color: purple;
+}
+​
+​
 button {
   outline: none;
 }
-
-
+​
+​
 button .modal {
   background: none;
   border: none;
   outline: none;
-
 }
 .modalHead {
   font-family: 'Calibre Regular';
   font-size: 24px;
   margin-left: 7%;
 }
-
+​
 .moreDetails {
   color: #40D9AC;
   background: none;
@@ -526,20 +530,18 @@ button .modal {
   cursor: pointer;
 
 }
-
+​
 .sendAMessage {
   color: #40D9AC;
   text-decoration: underline;
   text-decoration-color: #9fecd5;
   cursor: pointer;
-
-
 }
-
+​
 .sendAMessage:hover {
   text-decoration-color: #40D9AC;
 }
-
+​
 .details {
   border-top: .5px solid #E0E0E0;;
   border-bottom: .5px solid #E0E0E0;
@@ -550,11 +552,11 @@ button .modal {
   display: flex;
   /* width: 45%; */
 }
-
+​
 .column {
   margin-left: 50px;
 }
-
+​
 .detailHead {
   font-family: 'Calibre Regular';
   font-size: 16px;
@@ -563,17 +565,17 @@ button .modal {
 .column {
   font-family: 'Calibre Light';
 }
-
+​
 .detailList {
   display: inline-block;
   font-family: 'Calibre Regular';
 }
-
+​
 .activityHead {
   font-family: 'Calibre Regular';
   font-size: 16px;
 }
-
+​
 .activityList {
   display: flex;
 }
@@ -590,17 +592,17 @@ button .modal {
   height: 75px;
   box-shadow: 0 0 2px #D3D3D3;
 }
-
+​
 .terrainHead {
   font-family: 'Calibre Regular';
   font-size: 16px;
 }
-
+​
 .terrainFeatures {
   color: gray;
   font-family: 'Calibre Light';
 }
-
+​
 .terrain {
   /* width: 45%; */
   border-top: 1px solid #D3D3D3;
@@ -609,7 +611,7 @@ button .modal {
 .terrainTitle {
   font-family: 'Calibre Regular';
 }
-
+​
 .terrainTypes {
   margin-top: 30px;
   width: 25%;
@@ -620,7 +622,7 @@ div.loginPrompt {
   font-family: 'Calibre Light';
   text-align: center;
 }
-
+​
 .welcome {
   /* position: absolute;
   margin-left: auto;
@@ -635,7 +637,7 @@ div.loginPrompt {
   color: #808080;
   margin-bottom: 25px;
 }
-
+​
 .apple {
   background-color: black;
   height: 50px;
@@ -652,7 +654,7 @@ div.loginPrompt {
   transition: bottom ease-in .3s;
 
 }
-
+​
 .appleText {
   margin-top: 10px;
   color:white;
@@ -662,8 +664,8 @@ div.loginPrompt {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
-
+​
+​
 .facebook {
   margin-top: 15px;
   background-color: #3b5998;
@@ -727,7 +729,7 @@ div.loginPrompt {
 .haveAcount {
   font-family: 'Calibre Light';
 }
-
+​
 .or {
   border-bottom: 1px solid #D3D3D3;
   line-height: 0.1em;
@@ -742,8 +744,8 @@ div.loginPrompt {
   position: relative;
 
 }
-
-
+​
+​
 .orSpan {
   background-color: white;
   height: 20px;
@@ -756,7 +758,7 @@ div.loginPrompt {
   right: 45%;
   bottom: -18px;
 }
-
+​
 .inputPopup {
   width: 96%;
   align-items: center;
@@ -771,15 +773,15 @@ div.loginPrompt {
   color: black;
   padding-left: 20px;
 }
-
+​
 .input-1 {
   margin-top: 15px;
 }
-
+​
 .smallDetails {
   font-size: 14px;
 }
-
+​
 #service-container {
   display: grid;
   grid-template-columns: auto;
